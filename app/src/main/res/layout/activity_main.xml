@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CEF4A3"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/tvTitulo"
+        android:textAlignment="center"
+        android:textColor="#F44336"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvVersionAndroidLB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/tvVersionAndroidLB"
+        android:textColor="#042E06"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvVersionAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/tvVersionAndroid"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/tvLight"
+        android:textColor="#022903"
+        android:textSize="16sp" />
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnOff"
+            android:layout_width="201dp"
+            android:layout_height="match_parent"
+            android:text="@string/btnOff"
+            android:textColor="#FBF2F2" />
+
+        <Button
+            android:id="@+id/btnOn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnOn"
+            android:textColor="#F9FBFB" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/tvLevelBaterryLB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/tvLevelBaterryLB"
+        android:textColor="#032E05"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvLevelBaterry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/tvLevelBaterry"
+        android:textSize="16sp" />
+
+
+    <ProgressBar
+        android:id="@+id/pbLevelBatery"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A4A2A8"
+        android:secondaryProgressTint="#9A2222" />
+
+    <TextView
+        android:id="@+id/tvConexionLB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:shadowColor="#673AB7"
+        android:text="@string/tvConexionLB"
+        android:textColor="#051B06"
+        android:textColorHint="#780A0A"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvConexion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/tvConexion"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/tvTitulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/tvTitulo2"
+        android:textAlignment="center"
+        android:textColor="#F44336"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tvCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6AD378"
+        android:padding="4dp"
+        android:text="@string/tvCamera"
+        android:textSize="16sp" />
+
+
+
+    <TextView
+        android:id="@+id/tvEws"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6AD378"
+        android:padding="4dp"
+        android:text="@string/tvEws"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvRs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6AD378"
+        android:padding="4dp"
+        android:text="@string/tvRs"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvRecordAudio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6AD378"
+        android:padding="4dp"
+        android:text="@string/tvRecordAudio"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvAccessCoarseLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6AD378"
+        android:padding="4dp"
+        android:text="@string/tvAccessCoarseLocation"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/btnCheckPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCheckPermission"
+        android:textColor="#F5F6F2"
+        android:textColorHighlight="#673AB7"
+        android:textColorLink="#4CAF50" />
+
+    <Button
+        android:id="@+id/btnRequestPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnResquestPermission"
+        android:textColor="#DFEFEF" />
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnRequestPermissionExternalStorage"
+            android:layout_width="209dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnResquestPermissionExternalStorage"
+            android:textColor="#E9EDF1" />
+
+        <Button
+            android:id="@+id/btnRequestPermissionReadStorage"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnResquestPermissionReadStorage"
+            android:textColor="#EBF3ED" />
+
+
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnRequestPermissionRecordAudio"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnResquestPermissionRecordAudio"
+            android:textColor="#EFF1F3" />
+
+        <Button
+            android:id="@+id/btnRequestPermissionLocation"
+            android:layout_width="195dp"
+            android:layout_height="match_parent"
+            android:text="@string/btnResquestPermissionLocation"
+            android:textColor="#EFF6F6" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/tvResponse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/tvResponse"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etNombreArchivo"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:hint="@string/etNombreArchivo"
+        android:textColorHint="#131111" />
+
+    <Button
+        android:id="@+id/btnGuardarArchivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnGuardarArchivo" />
+
+
+
+
+
+
+</LinearLayout>

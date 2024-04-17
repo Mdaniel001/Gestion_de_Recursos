@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Trabajo3</string>
+    <string name="tvTitulo">Gestion de Recursos</string>
+    <string name="tvVersionAndroidLB">1. Version Android: </string>
+    <string name="tvVersionAndroid"></string>
+    <string name="tvLight">2. Flashlight: </string>
+    <string name="btnOff">Off</string>
+    <string name="btnOn">On</string>
+    <string name="tvLevelBaterryLB">3. Level of Baterry</string>
+    <string name="tvLevelBaterry"></string>
+    <string name="pbLevelBateria"></string>
+    <string name="tvConexionLB">4.Conection:</string>
+    <string name="tvConexion"></string>
+    <string name="tvTitulo2">Gestion de Recursos</string>
+    <string name="tvCamera">Status Permission Camera</string>
+    <string name="tvEws">Status Permission External Storage</string>
+    <string name="tvRs">Status Permission Read Storage</string>
+    <string name="tvRecordAudio">Status Permission Record Audio</string>
+    <string name="tvAccessCoarseLocation">Status Permission Location</string>
+    <string name="btnCheckPermission">Check Permission</string>
+    <string name="btnResquestPermission">Request Permission Camera</string>
+    <string name="btnResquestPermissionExternalStorage">Request Permission External Storage</string>
+    <string name="btnResquestPermissionReadStorage">Request Permission Read Storage</string>
+    <string name="btnResquestPermissionRecordAudio">Request Permission Record Audio</string>
+    <string name="btnResquestPermissionLocation">Request Permission Location</string>
+    <string name="tvResponse"></string>
+    <string name="etNombreArchivo">Escriba el Nombre del Archivo </string>
+    <string name="btnGuardarArchivo"> Click Para guardar Archivo </string>
+
+</resources>
